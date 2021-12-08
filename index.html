@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Yanji</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="logo"></div>
+                <nav class="nav">
+                    <h1 class="name">Yanji</h1>
+                    <div class="hamburger-menu">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Offer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="hero">
+                <div class="container">
+                    <div class="main-heading">
+                        <h1 class="title">Discover</h1>
+                        <h2 class="subt-itle">Luxury hotels</h2>
+                    </div>
+                    <a href="#" class="btn btn-gradient"
+                        >Explore now
+                        <span class="dots"
+                            ><i class="fas fa-ellipsis"></i
+                        ></span>
+                    </a>
+                </div>
+            </div>
+
+            <section class="booking">
+                <div class="container">
+                    <form action="" class="book-form">
+                        <div class="input-group">
+                            <label for="destination" class="input-label">Destination</label>
+                            <input type="text" class="input" id="destination">
+                        </div>
+                        <div class="input-group">
+                            <label for="check-in" class="input-label">Check in</label>
+                            <input type="date" class="input" id="check-in">
+                        </div>
+                        <div class="input-group">
+                            <label for="check-out" class="input-label">Check out</label>
+                            <input type="date" class="input" id="check-out">
+                        </div>
+                        <div class="input-group">
+                            <label for="adults" class="input-label">Adults</label>
+                            <select name="" id="adults" class="options">
+                                <option value="0">0</option>
+                                <option value="0">1</option>
+                                <option value="0">2</option>
+                                <option value="0">3</option>
+                                <option value="0">4</option>
+                                <option value="0">5</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="children" class="input-label">Children</label>
+                            <select name="" id="children" class="options">
+                                <option value="0">0</option>
+                                <option value="0">1</option>
+                                <option value="0">2</option>
+                                <option value="0">3</option>
+                                <option value="0">4</option>
+                                <option value="0">5</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn form-btn btn-purple">
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></i></span>
+                        </button>
+                    </form>
+                </div>
+            </section>
+            <section class="hotels">
+                <div class="container">
+                    <h5 class="section-head">
+                        <span class="heading">Explore</span>
+                        <span class="sub-heading">Our beautiful hotel</span>
+                    </h5>
+                    <div class="grid">
+                        <div class="grid-item featured-hotels">
+                            <img src="https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" class="hotel-image">
+                            <h5 class="hotel-name">Dream Lake</h5>
+                            <span class="hotel-price">From 200$/Night</span>
+                            <div class="hotel-rating">
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star-half rating"></i>
+                            </div>
+                            <a href="#" class="btn btn-gradient">
+                                Book now
+                                <span class="dots">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </span>
+                            </a>
+                        </div>
+                        
+                        <div class="grid-item featured-hotels">
+                            <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" class="hotel-image">
+                            <h5 class="hotel-name">Romantic Pool</h5>
+                            <span class="hotel-price">From 230$/Night</span>
+                            <div class="hotel-rating">
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star-half rating"></i>
+                            </div>
+                            <a href="#" class="btn btn-gradient">
+                                Book now
+                                <span class="dots">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="grid-item featured-hotels">
+                            <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" class="hotel-image">
+                            <h5 class="hotel-name">The Kingdom</h5>
+                            <span class="hotel-price">From 300$/Night</span>
+                            <div class="hotel-rating">
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                            </div>
+                            <a href="#" class="btn btn-gradient">
+                                Book now
+                                <span class="dots">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="offer">
+                <div class="container">
+                    <div class="offer-content">
+                        <div class="discount">
+                            40% off
+                        </div>
+                        <h5 class="hotel-name">The Paradise</h5>
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star-half rating"></i>
+                        </div>
+                        <p class="paragraph">
+                            Start planning the trip of your dreams with the help of 1000+ articles on yanji magazine, ranging from the coolest hotels in New York to romantic getaways in Florida and everything in between.
+                        </p>
+                        <a href="#" class="btn btn-gradient">
+                            Redeem offer
+                            <span class="dots">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="rooms">
+                <div class="container">
+                    <h5 class="section-head">
+                        <span class="heading">Luxurious</span>
+                        <span class="sub-heading">Affordable rooms</span>
+                    </h5>
+                    <div class="grid rooms-grid">
+                        <div class="grid-item feature-rooms">
+                            <div class="image-wrap">
+                                <img class="room-image"src="https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
+                                <h5 class="room-name">Astro Hotel</h5>
+                            </div>
+                            <div class="room-info-wrap">
+                                <span class="room-price">$200 
+                                    <span class="per-night">Per night</span>
+                                </span>
+                                <p class="paragraph">
+                                    Start planning the trip of your dreams with the help of 
+                                    1000+ articles on yanji magazine, ranging from the coolest hotels in New York to romantic getaways in Florida and everything in between.
+                                </p>
+                                <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="grid-item feature-rooms">
+                            <div class="image-wrap">
+                                <img class="room-image" src="https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=958&q=80" alt="">
+                                <h5 class="room-name">Astro Hotel</h5>
+                            </div>
+                            <div class="room-info-wrap">
+                                <span class="room-price">$200 
+                                    <span class="per-night">Per night</span>
+                                </span>
+                                <p class="paragraph">
+                                    Start planning the trip of your dreams with the help of 
+                                    1000+ articles on yanji magazine, ranging from the coolest hotels in New York to romantic getaways in Florida and everything in between.
+                                </p>
+                                <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+                            </div>
+                        </div>
+                        <div class="grid-item feature-rooms">
+                            <div class="image-wrap">
+                                <img class="room-image" src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
+                                <h5 class="room-name">Astro Hotel</h5>
+                            </div>
+                            <div class="room-info-wrap">
+                                <span class="room-price">$200 
+                                    <span class="per-night">Per night</span>
+                                </span>
+                                <p class="paragraph">
+                                    Start planning the trip of your dreams with the help of 
+                                    1000+ articles on yanji magazine, ranging from the coolest hotels in New York to romantic getaways in Florida and everything in between.
+                                </p>
+                                <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact">
+                <div class="container">
+                    <h5 class="section-head">
+                        <span class="heading">Contact</span>
+                        <span class="sub-heading">Get in touch with us</span>
+                    </h5>
+                    <div class="contact-content">
+                        <div class="traveler-wrap">
+                            <img src="https://cdn.pixabay.com/photo/2018/05/16/17/18/travel-3406425_960_720.png" alt="">
+                        </div>
+                    <form action="" class="form contact-form">
+                        <div class="input-group-wrap">
+                            <div class="input-group">
+                                <input type="text" class="input" placeholder="Name" required>
+                                <span class="bar"></span>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" class="input" placeholder="E-mail" required>
+                                <span class="bar"></span>
+                            </div>
+                        </div>
+                            <div class="input-group">
+                                <input type="text" class="input" placeholder="Subject" required>
+                                <span class="bar"></span>
+                            </div>
+                            <div class="input-group">
+                                <textarea class="input" cols="30" rows="8" placeholder="Your opinion" required></textarea>    
+                                <span class="bar"></span>
+                            </div>
+                        <button type="submit" class="btn form-btn btn-purple">Send Message
+                            <span class="dots">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </button>
+                    </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-content-brand">
+                        <a href="index.html" class="logo">
+                            <img class="logo-image" src="" alt="">
+                        </a>
+                        <div class="paragraph">
+                            Start planning the trip of your dreams with the help of 1000+ articles on yanji magazine, 
+                            ranging from the coolest hotels in New York to romantic getaways in Florida and everything in between.
+                        </div>
+                    </div>
+                    <div class="social-media-wrap">
+                        <h4 class="footer-heading">Follow us</h4>
+                        <div class="social-media">
+                            <a href="#" class="sm-link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="sm-link">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" class="sm-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="sm-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="sm-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="sm-link">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="./index.js"></script>
+</html>
